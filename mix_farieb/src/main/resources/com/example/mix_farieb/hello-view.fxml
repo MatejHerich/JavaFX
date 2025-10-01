@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mix_farieb.HelloController">
+   <children>
+      <VBox layoutX="66.0" layoutY="200.0" prefHeight="200.0" prefWidth="100.0" spacing="15.0">
+         <children>
+            <Button fx:id="redplus" mnemonicParsing="false" onAction="#redplus" prefHeight="58.0" prefWidth="101.0" text="RED +" />
+            <Button fx:id="redminus" mnemonicParsing="false" onAction="#redminus" prefHeight="58.0" prefWidth="101.0" text="RED -" />
+         </children>
+      </VBox>
+      <VBox layoutX="250.0" layoutY="200.0" prefHeight="200.0" prefWidth="100.0" spacing="15.0">
+         <children>
+            <Button fx:id="greenplus" mnemonicParsing="false" onAction="#greenplus" prefHeight="58.0" prefWidth="101.0" text="GREEN +" />
+            <Button fx:id="greenminus" mnemonicParsing="false" onAction="#greenminus" prefHeight="58.0" prefWidth="101.0" text="GREEN -" />
+         </children>
+      </VBox>
+      <VBox layoutX="436.0" layoutY="200.0" prefHeight="200.0" prefWidth="100.0" spacing="15.0">
+         <children>
+            <Button fx:id="blueplus" mnemonicParsing="false" onAction="#blueplus" prefHeight="58.0" prefWidth="101.0" text="BLUE +" />
+            <Button fx:id="blueminus" mnemonicParsing="false" onAction="#blueminus" prefHeight="58.0" prefWidth="101.0" text="BLUE -" />
+         </children>
+      </VBox>
+      <Rectangle fx:id="colorBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="151.0" layoutX="216.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="169.0" />
+   </children>
+</Pane>
