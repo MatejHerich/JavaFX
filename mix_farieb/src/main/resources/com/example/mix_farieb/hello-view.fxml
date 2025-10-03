@@ -10,22 +10,22 @@
    <children>
       <VBox layoutX="66.0" layoutY="200.0" prefHeight="200.0" prefWidth="100.0" spacing="15.0">
          <children>
-            <Button fx:id="redplus" mnemonicParsing="false" onAction="#redplus" prefHeight="58.0" prefWidth="101.0" text="RED +" />
-            <Button fx:id="redminus" mnemonicParsing="false" onAction="#redminus" prefHeight="58.0" prefWidth="101.0" text="RED -" />
+            <Button fx:id="redplus" mnemonicParsing="false" onAction="#redPlus" prefHeight="58.0" prefWidth="101.0" text="RED +" />
+            <Button fx:id="redminus" mnemonicParsing="false" onAction="#redMinus" prefHeight="58.0" prefWidth="101.0" text="RED -" />
             <Label fx:id="redlabel" prefHeight="30.0" prefWidth="101.0" text="RED:" />
          </children>
       </VBox>
       <VBox layoutX="250.0" layoutY="200.0" prefHeight="200.0" prefWidth="100.0" spacing="15.0">
          <children>
-            <Button fx:id="greenplus" mnemonicParsing="false" onAction="#greenplus" prefHeight="58.0" prefWidth="101.0" text="GREEN +" />
-            <Button fx:id="greenminus" mnemonicParsing="false" onAction="#greenminus" prefHeight="58.0" prefWidth="101.0" text="GREEN -" />
+            <Button fx:id="greenplus" mnemonicParsing="false" onAction="#greenPlus" prefHeight="58.0" prefWidth="101.0" text="GREEN +" />
+            <Button fx:id="greenminus" mnemonicParsing="false" onAction="#greenMinus" prefHeight="58.0" prefWidth="101.0" text="GREEN -" />
             <Label fx:id="greenlabel" prefHeight="30.0" prefWidth="101.0" text="GREEN:" />
          </children>
       </VBox>
       <VBox layoutX="436.0" layoutY="200.0" prefHeight="200.0" prefWidth="100.0" spacing="15.0">
          <children>
-            <Button fx:id="blueplus" mnemonicParsing="false" onAction="#blueplus" prefHeight="58.0" prefWidth="101.0" text="BLUE +" />
-            <Button fx:id="blueminus" mnemonicParsing="false" onAction="#blueminus" prefHeight="58.0" prefWidth="101.0" text="BLUE -" />
+            <Button fx:id="blueplus" mnemonicParsing="false" onAction="#bluePlus" prefHeight="58.0" prefWidth="101.0" text="BLUE +" />
+            <Button fx:id="blueminus" mnemonicParsing="false" onAction="#blueMinus" prefHeight="58.0" prefWidth="101.0" text="BLUE -" />
             <Label fx:id="bluelabel" prefHeight="30.0" prefWidth="103.0" text="BLUE:" />
          </children>
       </VBox>

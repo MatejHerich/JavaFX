@@ -10,7 +10,6 @@ public class HelloController {
     @FXML
     private Rectangle colorBox;
     private int red = 0,green = 0,blue = 0;
-    private Color color;
     @FXML
     private Label redlabel, greenlabel, bluelabel;
 
@@ -20,47 +19,47 @@ public class HelloController {
 
     @FXML
     public void initialize() {
-        color = Color.rgb(red,green,blue);
+        Color color = Color.rgb(red,green,blue);
         colorBox.setFill(color);
     }
 
     @FXML
-    public void redplus() {
+    public void redPlus() {
         red += 5;
         red = Math.min(255, Math.max(0, red));
         updateColor();
         redlabel.setText("RED: " + red);
     }
     @FXML
-    public void redminus() {
+    public void redMinus() {
         red -= 5;
         red = Math.min(255, Math.max(0, red));
         updateColor();
         redlabel.setText("RED: " + red);
     }
     @FXML
-    public void greenplus() {
+    public void greenPlus() {
         green += 5;
         green = Math.min(255, Math.max(0, green));
         updateColor();
         greenlabel.setText("GREEN: " + green);
     }
     @FXML
-    public void greenminus() {
+    public void greenMinus() {
         green -= 5;
         green = Math.min(255, Math.max(0, green));
         updateColor();
         greenlabel.setText("GREEN: " + green);
     }
     @FXML
-    public void blueplus() {
+    public void bluePlus() {
         blue += 5;
         blue = Math.min(255, Math.max(0, blue));
         updateColor();
         bluelabel.setText("BLUE: " + blue);
     }
     @FXML
-    public void blueminus() {
+    public void blueMinus() {
         blue -= 5;
         blue = Math.min(255, Math.max(0, blue));
         updateColor();
